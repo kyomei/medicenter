@@ -104,4 +104,24 @@ header {
       font-size: 13px;
       text-decoration: none; }
 
+#geral {
+  display: flex;
+  justify-content: center; }
+  #geral .widget_head {
+    margin-top: 30px;
+    margin-bottom: 20px; }
+    #geral .widget_head .widget_title {
+      color: #000;
+      font-size: 21px;
+      font-weight: bold; }
+    #geral .widget_head .widget_title_bar {
+      width: 50px;
+      height: 2px;
+      background-color: #36a9e1;
+      margin-top: 10px; }
+  #geral section {
+    flex: 2; }
+  #geral aside {
+    flex: 1; }
+
 /*# sourceMappingURL=style.css.map */
